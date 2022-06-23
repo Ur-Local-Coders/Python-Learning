@@ -57,3 +57,49 @@ if b > a:
 else:
     print("b is not greater than a")
 
+    print(bool("hello"))
+
+    print(bool(15))
+
+print(bool("abc"))
+
+print(bool(123))
+
+print(bool("apple, cherry, banana"))
+
+a = ["apple"]
+
+b = ["banana"]
+
+print(a + b)
+x = 3
+x += 3
+print(x)
+
+x -= 3
+x = x - 3
+
+print(x)
+
+x = 3
+x -= 3
+print(bool(x))
+
+list = ["apples", "bananas", "oranges"]
+
+print(len(list))
+
+tuple = ("apples", "bananas", "oranges")
+
+print(len(tuple))
+
+set = {"apples", "bananas", "oranges"}
+
+print(set)
+dictionary = {
+"brand": "Ford",
+"model": "Focus",
+"year": 2010
+}
+
+print(dictionary["brand"])
